@@ -1,0 +1,20 @@
+{
+  "name": "@kinetic-cdn/build",
+  "version": "1.0.0-rc.1",
+  "description": "",
+  "main": "kinetic-sdk-bundle-1.0.0-rc.1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kin-labs/kinetic-cdn-build.git"
+  },
+  "keywords": [],
+  "author": "Bram Borggreve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kin-labs/kinetic-cdn-build/issues"
+  },
+  "homepage": "https://github.com/kin-labs/kinetic-cdn-build#readme"
+}
