@@ -1,8 +1,8 @@
 {
   "name": "@kinetic-cdn/build",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0-rc.1.1",
   "description": "",
-  "main": "kinetic-sdk-bundle-1.0.0-rc.1.js",
+  "main": "kinetic-sdk.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
