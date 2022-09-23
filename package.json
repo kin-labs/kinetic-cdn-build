@@ -1,6 +1,6 @@
 {
   "name": "@kinetic-cdn/build",
-  "version": "1.0.0-rc.1.2",
+  "version": "1.0.0-rc.1.3",
   "description": "",
   "main": "kinetic-sdk.js",
   "scripts": {

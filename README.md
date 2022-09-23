@@ -38,9 +38,10 @@ A more complete example that sets up the Kinetic Sdk, and creates a keypair in l
 
 ```js
 function setupKeypair(Keypair) {
-  const publicKey = localStorage.getItem("publicKey");
+  let publicKey = localStorage.getItem("publicKey");
   if (!publicKey) {
     const keypair = Keypair.random();
+    publicKey = keypair.publicKey;
     console.log("No public key found, generating a new one", keypair.publicKey);
     localStorage.setItem("publicKey", keypair.publicKey);
     localStorage.setItem(keypair.publicKey, keypair.mnemonic);
