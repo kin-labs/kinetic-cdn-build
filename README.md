@@ -7,9 +7,6 @@
 Include the following script tag in your HTML:
 
 ```html
-<script>
-  var global = window;
-</script>
 <script
   src="https://unpkg.com/@kinetic-cdn/build/kinetic-sdk.js"
   type="module"
@@ -34,6 +31,7 @@ document.addEventListener(
 A more complete example that sets up the Kinetic Sdk, and creates a keypair in local storage.
 
 > ⚠️ Warning: this code is not ready for production, sharing the user secret in local storage is a security risk.
+
 > ⚠️ PLEASE BE AWARE OF THE SECURITY IMPLICATIONS OF THIS CODE.
 
 ```js

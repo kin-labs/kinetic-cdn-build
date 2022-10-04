@@ -8,9 +8,16 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <body>
-    <script>
-      var global = global || window;
-    </script>
     <script src="kinetic-sdk.js" type="module"></script>
+    <script>
+      document.addEventListener(
+        "kinetic-sdk-ready",
+        ({ detail: { Keypair, KineticSdk } }) => {
+          console.log("Kinetic SDK is ready!", Keypair, KineticSdk);
+          // Do stuff with the Keypair class;
+          // Do stuff with the KineticSdk class;
+        }
+      );
+    </script>
   </body>
 </html>
